@@ -1,0 +1,77 @@
+* {
+  margin-top: 20px;
+  background-color: #ebf9ff;
+}
+
+.shapes {
+  display: flex;
+  justify-content: space-evenly;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #426074;
+  border: 3px solid #475574;
+  transition: ease 0.25s transform;
+}
+.square:hover {
+  transform: scale(1.2, 1.2);
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #3b746f;
+  border-radius: 50%;
+  text-align: center;
+  border: 3px solid #475574;
+  transition: ease 0.25s transform;
+}
+.circle:hover {
+  transform: scale(1.2, 1.2);
+}
+.triangle {
+  width: 0px;
+  height: 0px;
+  /* background-color: #6a7459; */
+  border-right: 80px solid transparent;
+  border-bottom: 80px solid #3f740e;
+  border-left: 80px solid transparent;
+  position: relative;
+  top: 9px;
+  transition: ease 0.25s transform;
+}
+.triangle:hover {
+  transform: scale(1.2, 1.2);
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #ffc42d;
+  border: 3px solid #475574;
+  border-radius: 250px 0px 0px 0px;
+  transition: ease 0.25s transform;
+}
+.box:hover {
+  transform: scale(1.2, 1.2);
+}
+.box-1 {
+  width: 100px;
+  height: 100px;
+  background-color: #ff8228;
+  border: 3px solid #475574;
+  border-radius: 40px 0px 40px 0px;
+  transition: ease 0.25s transform;
+}
+.box-1:hover {
+  transform: scale(1.2, 1.2);
+}
+.leaf {
+  width: 100px;
+  height: 100px;
+  background-color: #729d16;
+  border-radius: 250px 0px 250px 0px;
+  transition: ease 0.25s transform;
+}
+.leaf:hover {
+  transform: scale(1.2, 1.2);
+}
