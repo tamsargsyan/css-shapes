@@ -6,7 +6,10 @@
 .shapes {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  cursor: pointer;
 }
+
 .square {
   width: 100px;
   height: 100px;
@@ -41,6 +44,16 @@
   transition: ease 0.25s transform;
 }
 .triangle:hover {
+  transform: scale(1.2, 1.2);
+}
+.rectangular {
+  width: 150px;
+  height: 100px;
+  background-color: #9d597b;
+  border: 3px solid steelblue;
+  transition: ease 0.25s transform;
+}
+.rectangular:hover {
   transform: scale(1.2, 1.2);
 }
 .box {
